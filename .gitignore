@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Dataset files
+data/
+data/CategoryandAttributePredictionBenchmark/
+*.csv
+*.jpg
+*.png
+
+# Model files
+*.h5
+*.ckpt
+
+# Ignore virtual environment
+venv/
+**/venv/
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store  # macOS metadata file
+Thumbs.db  # Windows metadata file
